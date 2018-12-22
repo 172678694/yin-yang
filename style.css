@@ -3,13 +3,14 @@ body{
   }
 
 .yin-yang {
+	transform:rotate(270deg);
 	width: 200px;
 	height: 200px;
 	background: #fff;
 	border-radius: 50%;
 	position: relative;
     margin:100px auto 20px;
-    background:linear-gradient(to bottom, #ffffff 0%,#ffffff 50%,#000000 51%,#000000 100%);
+	background:linear-gradient(to bottom, #000000 0%,#000000 50%,#ffffff 51%,#ffffff 100%);
     animation-name:spin;
     animation-duration:3s;
     animation-timing-function: linear;
